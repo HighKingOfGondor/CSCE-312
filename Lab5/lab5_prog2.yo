@@ -1,0 +1,16 @@
+  0x000:              | Main:
+  0x000: 30f004000000 |     irmovl $0x4, %eax
+  0x006: 30f302000000 |     irmovl $0x2, %ebx
+  0x00c: 30f100000000 |     irmovl $0x0, %ecx
+  0x012: 30f705000000 |     irmovl $0x5, %edi
+  0x018: 30f201000000 |     irmovl $0x1, %edx
+  0x01e: 6171         |     subl %edi, %ecx
+  0x020: 7425000000   |     jne Loop
+  0x025:              | Loop:
+  0x025: 6001         |     addl %eax, %ecx(%ecx)
+  0x027: 6001         |     addl %eax, %ecx(%ecx)
+  0x029: 6012         |     addl %ecx, %edx
+  0x02b: 6171         |     subl %edi, %ecx
+  0x02d: 7225000000   |     jl Loop 
+  0x032:              | End:
+  0x032: 00           |     halt

@@ -1,0 +1,16 @@
+Main:
+    irmovl $0x4, %eax
+    irmovl $0x2, %ebx
+    irmovl $0x0, %ecx
+    irmovl $0x5, %edi
+    irmovl $0x1, %edx
+    subl %edi, %ecx
+    jne Loop
+Loop:
+    addl %eax, %ecx(%ecx)
+    addl %eax, %ecx(%ecx)
+    addl %ecx, %edx
+    subl %edi, %ecx
+    jl Loop 
+End:
+    halt

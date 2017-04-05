@@ -1,0 +1,14 @@
+  0x000:              | Main: 
+  0x000: 30f003000000 |     irmovl $0x3, %eax
+  0x006: 30f305000000 |     irmovl $0x5, %ebx
+  0x00c: 6103         |     subl %eax, %ebx
+  0x00e: 7621000000   |     jg If
+  0x013:              | Else:
+  0x013: 30f000000000 |     irmovl $0x0, %eax
+  0x019: 30f101000000 |     irmovl $0x1, %ecx
+  0x01f: 6031         |     addl %ebx, %ecx
+  0x021:              | If:
+  0x021: 30f105000000 |     irmovl $0x5, %ecx
+  0x027: 6001         |     addl %eax, %ecx
+  0x029:              | End:
+  0x029: 00           |     halt

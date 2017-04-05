@@ -1,0 +1,14 @@
+Main: 
+    irmovl $0x3, %eax
+    irmovl $0x5, %ebx
+    subl %eax, %ebx
+    jg If
+Else:
+    irmovl $0x0, %eax
+    irmovl $0x1, %ecx
+    addl %ebx, %ecx
+If:
+    irmovl $0x5, %ecx
+    addl %eax, %ecx
+End:
+    halt
