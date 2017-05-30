@@ -11,9 +11,7 @@
  Note: This code is designed to run in an infinite loop to mimic a real control system.
  If you prefer to read the inputs from a file, modify the code appropriately to terminate the
  loop when all the inputs have been processed.
- 
- Turning in this file without your code will result in zero points being awarded for this problem.
- 
+  
  run this file as : gcc filename.c -o executableName
  
  */
