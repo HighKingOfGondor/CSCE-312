@@ -14,7 +14,7 @@ Lab3: <br />
 Lab4: <br />
   &nbsp;&nbsp;&nbsp;&nbsp;Prob1a: Wrote a coder/decoder.<br />
   &nbsp;&nbsp;&nbsp;&nbsp;Prob1b: Wrote a circuit that simulates a car blinker.<br />
-  &nbsp;&nbsp;&nbsp;&nbsp;Prob3: Wrote a collection of circuits that preform math operations. <br />  &nbsp;&nbsp;&nbsp;&nbsp;Includes: Barrel shifter, adder, &nbsp;&nbsp;magnitude comparator, subtractor, multiplexer, and others. For both one bit and one byte operations.<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;Prob3: Wrote a collection of circuits that preform math operations. <br />  &nbsp;&nbsp;&nbsp;&nbsp;Includes: Barrel shifter, adder, magnitude comparator, subtractor, multiplexer, and others. For both one bit and one byte operations.<br />
 Lab5:<br />
   &nbsp;&nbsp;&nbsp;&nbsp;A collection of programs in y86 assembly language.<br />
 Project:<br />
